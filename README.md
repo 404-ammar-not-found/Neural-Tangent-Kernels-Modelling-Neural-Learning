@@ -2,6 +2,23 @@
 
 A production-ready, reproducible repository for generating presentation visualizations on Neural Tangent Kernels and related neural network concepts.
 
+## Abstract for the talk 
+
+Neural networks are expensive and time-consuming to train, therefore is it possible
+to model the evolution of the network with much less compute power? Modern
+neural networks are over-parameterised and seen as a mysterious black box. However, when considering their width to be infinite, their training dynamics through
+gradient descent corresponds to previously defined kernel methods. Introduced in
+2018, Jacot, Gabriel and Hongler defined a neural tangent kernel (NTK), providing
+a strong theoretical framework, formalising how neural networks can learn and
+generalise. In this talk, I will introduce NTKs and define the mathematics and
+intuition behind them. I will first define how neural networks can be modelled as a
+high-parameter function and then highlight how their learning dynamics linearise
+as their width increases. Then this linearisation leads to predictive generalisation
+results, connecting neural networks to Gaussian processes. Then, I shall introduce
+the applications of NTKs in practical machine learning and show a demonstration
+of their application on a sin(x) curve. This talk will highlight the intersection
+between functional analysis, differential equations and probability and their contribution to define a key concept for mathematical machine learning.
+
 ## 📁 Repository Structure
 
 ```
