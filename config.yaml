@@ -1,0 +1,70 @@
+# Neural Tangent Kernels Configuration
+
+paths:
+  data_dir: "data"
+  figures_dir: "figures"
+  scripts_dir: "scripts"
+  notebooks_dir: "notebooks"
+
+seeds:
+  random: 42
+  torch: 42
+  numpy: 42
+
+figure_settings:
+  dpi: 300
+  style: "seaborn"
+  size: [10, 6]
+  animation_fps: 15
+
+colors:
+  primary: '#1f77b4'
+  secondary: '#ff7f0e'
+  success: '#2ca02c'
+  danger: '#d62728'
+  warning: '#ffbb78'
+  info: '#17becf'
+  bg: '#ffffff'
+  panel: '#f0f2f8'
+  white: '#1a1a2e'
+  grey: '#c0c4d8'
+  dim: '#8888aa'
+  gold: '#c47a00'
+  cyan: '#0077aa'
+  red: '#cc2233'
+  green: '#007744'
+
+colormaps:
+  viridis: 'viridis'
+  plasma: 'plasma'
+  inferno: 'inferno'
+  magma: 'magma'
+  cividis: 'cividis'
+  ntk: ['#050515', '#0a0a1a', '#94c544']
+
+data_settings:
+  n_samples: 100
+  noise_std: 0.1
+  x_range: [-3, 3]
+  test_points: 50
+
+network_settings:
+  hidden_layers: [100]
+  activation: 'tanh'
+  learning_rate: 0.005
+  n_iterations: 100
+  widths: [5, 50, 500]
+  n_layers: 3
+
+gradient_descent_settings:
+  learning_rate: 0.01
+  iterations: 100
+  line_range: [-6, 6]
+  error_range: [-10, 15]
+
+ntk_settings:
+  n_points: 12
+  n_steps: 60
+  lr: 0.002
+  finite_width: 8
+  infinite_width: 512
