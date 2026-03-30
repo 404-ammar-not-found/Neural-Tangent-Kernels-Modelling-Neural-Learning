@@ -1,7 +1,3 @@
-Here is your text with all emojis removed:
-
----
-
 # Neural Tangent Kernels: Modelling Neural Learning
 
 A production-ready, reproducible repository for generating presentation visualizations on Neural Tangent Kernels and related neural network concepts.
